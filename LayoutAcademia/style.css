@@ -1,0 +1,108 @@
+/*Geral*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #000000;
+}
+
+header {
+    background-color: rgb(18, 18, 18);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.headerBanner {
+    height: 40vh;
+}
+
+.conteudoBanner {
+    padding-top: 10%;
+}
+/*NavBar*/
+nav {
+    text-align: center;
+    display: flex;
+    margin-left: 60vw;
+
+}
+
+nav ul {
+    float: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+
+    color: #47F500;
+    transition-duration: 0.5s;
+}
+/*Container*/
+
+/* Seção 1*/
+.secaoUm {
+    height: 40vh;
+    text-align: center;
+}
+/*Seção 2*/
+.secaoDois {
+    height: 40vh;
+    text-align: center;
+}
+
+/*Rodapé*/
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 10rem;
+    overflow-y: hidden;
+    background-color: #181818;
+    background-image: none;
+    background-repeat: repeat-all;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    text-transform: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+footer h2 {
+    color: #47F500;
+}
+
+footer ul {
+    color: #47F500;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a :visited {
+    color: white;
+    text-decoration: none;
+}
+
+.col-span {
+    align-items: center;
+    width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+}
