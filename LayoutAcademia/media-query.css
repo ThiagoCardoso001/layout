@@ -1,0 +1,40 @@
+/*---------------------------------------------------------------layout responsivo-------------------------------------------------------------------*/
+
+/*Desktop Vianna*/
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  /*Geral*/
+  header {
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .headerBanner {
+    height: 35vh;
+    background: url(images/bannerInicial.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -1.5%;
+    margin-top: -0.75%;
+  }
+
+  .conteudoBanner {
+    padding-top: 7%;
+    margin-left: 50%;
+    text-align: center;
+  }
+
+  /*NavBar*/
+  nav {
+    text-align: center;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: -1%;
+  }
+
+  ul li:nth-of-type(1) {
+    margin-left: 20%;
+  }
+}
