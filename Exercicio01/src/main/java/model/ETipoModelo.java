@@ -1,5 +1,0 @@
-package model;
-
-public enum ETipoModelo {
-    GOL, CELTA, UNO, FIESTA, PALIO, FOX, FREEMONT, JEEP, HRV, STRADA, SAVEIRO, S10, COROLLA, FUSION, CIVIC;
-}
